@@ -1,0 +1,24 @@
+\documentclass[a4paper,8pt]{article}
+\pagestyle{empty}
+
+\begin{document}
+\textbf{\textit{1-1 Comparison of running times.}}\\
+For each function $f(n)$ and time $t$ in the following table, determine the
+largest size $n$ of a problem that can be solved in time $t$, assuming that the
+algorithm to solve the problem takes $f(n)$ microseconds.
+
+\begin{center}
+  \begin{tabular}{ *{8}{c|} }
+    \hline
+    $\log n$ & $2^{10^{6}}$ & $10^{10^{5}}$ & $10^{10^{5}}$ & $10^{10^{5}}$ & $10^{10^{5}}$ & $10^{10^{5}}$ & $10^{10^{5}}$ \\ \hline
+    $\sqrt{n}$ & $10^{12}$ & $6 \times 10^{13}$ & $3.6 \times 10^{15}$ & $8.64 \times 10^{16}$ & $2.6 \times 10^{18}$ & $3.12 \times 10^{19}$ & $3.12 \times 10^{21}$ \\ \hline
+    $n$ & $10^{6}$ & $6 \times 10^{7}$ & $3.6 \times 10^{9}$ & $8.64 \times 10^{10}$ & $2.6 \times 10^{12}$ & $3.12 \times 10^{13}$ & $3.12 \times 10^{15}$ \\ \hline
+    $\log n$ & $9 \times 10^{4}$ & $5.4 \times 10^{6}$ & $3.24 \times 10^{8}$ & $7.77 \times 10^{9}$ & $2.33 \times 10^{11}$ & $2.79 \times 10^{12}$ & $2.79 \times 10^{14}$ \\ \hline
+    $n^{2}$ & $10^{3}$ & $6 \times 10^{4}$ & $3.6 \times 10^{6}$ & $8.64 \times 10^{7}$ & $2.6 \times 10^{9}$ & $3.12 \times 10^{10}$ & $3.12 \times 10^{12}$ \\ \hline
+    $n^{3}$ & $10^{2}$ & $6 \times 10^{3}$ & $3.6 \times 10^{5}$ & $8.64 \times 10^{6}$ & $2.6 \times 10^{8}$ & $3.12 \times 10^{9}$ & $3.12 \times 10^{11}$ \\ \hline
+    $2^{n}$ & $20$ & $1.2 \times 10^{3}$ & $7.2 \times 10^{4}$ & $1.73 \times 10^{6}$ & $5.17 \times 10^{7}$ & $6.23 \times 10^{8}$ & $6.23 \times 10^{10}$ \\ \hline
+    $n!$ & $9.44$ & $5.64 \times 10^{2}$ & $3.38 \times 10^{4}$ & $8.11 \times 10^{5}$ & $2.43 \times 10^{7}$ & $2.91 \times 10^{8}$ & $2.91 \times 10^{10}$ \\
+    \hline
+  \end{tabular}
+\end{center}
+\end{document}
